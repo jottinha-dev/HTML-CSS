@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> medias em html </title>
+</head>
+<body>
+    <h1> imagem dinamica</h1>
+    <p> tente abrir este site em varios dispositivos diferentes ou simplesmente almente e diminua o tamanho do seu navegador </p>
+
+    <picture>
+        <source media="(max-width:720px )" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1022px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="Imagens/foto-g.png" alt="imagem flexivel  ">
+    </picture>
+    <h1> reproduzindo audios</h1>
+    <p> vamos aprender a reproduzir audios em HTML5 </p>
+    <audio src="media/Success 3.mp3" controls autoplay> pirilin 
+    </audio>
+    
+    <video width="500" src="media/333819_small.mp4" controls autoplay></video>
+</body>
+</html>

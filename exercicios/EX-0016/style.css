@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+*{
+    font-family: sans-serif;
+    /*height:100% ;*/
+}
+
+p{
+    text-align: justify;
+    color:#5C4B51;
+}
+main{
+    background-color: white;
+    width: 600px;
+    padding: 20px;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 10px 10px 50px #61482893;
+    /* 1°- parametro = sobra lado, 2° - parametro = sombra baixo, 3°- parametro = quanto ela vai se espalhar, ultimo parametro cor/transparencia */
+}
+h1{
+    color: #978750;
+    text-align: center;
+    text-shadow: 1px 1px 2px #463e258e;
+}
+h2{
+    color:#F06060 ;
+}
+body{
+    background-image: linear-gradient(to right,#F2EBBF, #F3B562);
+}

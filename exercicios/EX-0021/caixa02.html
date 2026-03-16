@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> grouping tags</title>
+</head>
+<style>
+    body{
+        background-color: antiquewhite;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin: 0px;
+    }
+    header{
+        background-color: rgb(202, 145, 255);
+        padding: 20px;
+        margin: 10px;
+    }
+    nav > a{
+        text-decoration: none;
+        font-size: 20px;
+        color: white;
+        font-weight: normal;
+    }
+    nav >a:hover{
+        color: red;
+    }
+    main{
+        background-color: darkolivegreen;
+        border-radius: 10px;
+        box-shadow: 5px 5px 15px 2px rgba(0, 0, 0, 0.404);
+        padding: 10px;
+        text-align: justify;
+        margin: 20px;
+    }
+    #assuntos{
+        color: pink;
+    }
+    article > h2{
+        text-align: center;
+        font-weight: normal;
+    }
+    article{
+        color: white;
+    }
+    article > p{
+        background-color: red;
+        color: yellow;
+    }
+    article > aside{
+        background-color: white;
+        color: darkcyan;
+    }
+    footer{
+        background-color: black;
+        color: white;
+        padding: 8px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+    footer > p{
+        margin: 0px;
+    }
+    div{
+        margin: 10px;
+    }
+    div > img{
+        margin-right: 10px;
+    }
+    #segunda{
+        display: inline-table;
+        margin-left:100;
+
+    }
+    #domingo{
+        display: inline-table;
+
+    }
+</style>
+<body>
+    <header>
+            <H1> MEU SITE</H1>
+            <nav>
+                <a href="#"> arroz</a>
+                <a href="#"> feijao</a>
+                <a href="#"> batata</a>
+                <a href="#"> frango</a>
+                <a href="#"> linguiça</a>
+            </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p> assuntos importnates</p>
+        </section>
+        <section>
+            <article>
+                <h2> noticias </h2>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, eveniet! Non blanditiis, voluptatum quo magnam tempora earum, impedit harum tenetur ipsam fugit ipsa alias a totam sint quod, rem eaque.</p>
+                <aside> Escrito por josé bizerra </aside>
+            </article>
+        </section>
+    </main>
+    <div>
+        <img src="thumb-hardware.png" alt="">
+        <img src="thumb-hardware.png" alt="">
+    </div>
+    <section class="bomdia">
+        <ol id="domingo">
+            <li>final de ano </li>
+            <li>final de ano </li>
+            <li>final de ano </li>
+        </ol>
+        <ol id="segunda">
+           <li>final de ano </li>
+           <li>final de ano </li>
+           <li>final de ano </li>
+        </ol>
+    </section>
+    <a href="caixa01.html"> voltar</a>
+    <footer>
+        <p> curso em video</p>
+    </footer>
+    
+</body>
+</html>

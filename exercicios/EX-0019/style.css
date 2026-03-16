@@ -1,0 +1,49 @@
+@charset "UTF-8";
+/*
+    em HTML é id em CSS é #
+    em HTML é class em CSS é .
+    Span tag em HTML para indicar um certo trecho no texto
+    Eu consigo colocar mais de uma (CLASS e um ID) no mesmo elemento em HTML
+
+*/
+
+body{
+    background-color: rgb(205, 255, 211);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    color:rgb(39, 160, 56) ;
+}
+h1#principal{
+    color: rgb(41, 0, 138);
+    text-align: center;
+}
+h2{
+    color: rgb(55, 71, 57);
+}
+
+.basico{
+        color: rgb(29, 175, 0);
+}
+
+.intermediario{
+        color: rgb(162, 173, 0);
+}
+
+.avançado{
+        color: rgb(161, 0, 0);
+}
+main#box1{
+    background-color: blueviolet;
+    border-radius: 15px;
+    text-align: justify;
+    
+}
+main{
+    background-color: rgb(226, 43, 43);
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+    color: white;
+}

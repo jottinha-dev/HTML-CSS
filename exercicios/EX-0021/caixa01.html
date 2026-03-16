@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de caixas</title>
+    <style>
+        h1{
+            background-color: lightgreen;
+            height: 300px;
+            width: 300px;
+            border-width:10px;
+            border-style: solid;
+            border-color: darkgray;
+
+            padding: 10px;
+            margin: 10px 10px 40px 10px;
+            /* Short hands*/
+            outline: 5px dashed red;
+        }
+        .opa{
+            display: inline-block;
+             background-color: blue;
+             height: 150px;
+             width: 150px;
+             border: 10px solid black;
+             outline: none;
+             padding: 5px;
+             font-size: 1em;
+             color: white;
+        }
+        .ola{
+            display:inline;
+             background-color: blue;
+             height: 150px;
+             width: 150px;
+             border: 10px solid black;
+             outline: none;
+             padding: 5px 97px 138px 5px;
+             font-size: 1em;
+             color: white;
+            
+        }
+        .oi{
+            display:inline;
+             background-color: blue;
+             height: 150px;
+             width: 150px;
+             border: 10px solid black;
+             outline: none;
+             padding: 5px 97px 138px 5px;
+             font-size: 1em;
+             color: white;
+             margin-bottom: 200px;
+        }
+        .oi {
+            margin: 50px auto 50px auto;
+        }
+        
+        a{
+            border-width: 5px;
+            border-color: red;
+            border-style: groove;
+            padding-top: 5px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box level</h1>
+    <p>paragrafos tambem sao exemplos de box level, mas os <a href="#"> links sao exemplos de caixas inline level</a> Vamos ver como tudo isso funciona!</p>
+    <h1 class="opa"> ola mundo </h1>
+    <h1 class="ola"> ola mundo  </h1>
+    <h1 class="oi"> ola mundo </h1>
+</body>
+</html>
