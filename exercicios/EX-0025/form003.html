@@ -4,10 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>formulario 03</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            font-size: 1em;
+            padding-bottom: 50px;
+        }
+        fieldset{
+            background-color: rgb(220, 237, 243);
+            color: rgba(0, 0, 0, 0.692);
+            border-radius: 40px;
+            padding-right: 50px;
+            width: 400px;
+            text-align: left;
+            margin: auto;
+            border-color: black;
+            font-size: 0.8em;
+        }
+        p{
+            font-weight: bolder;
+            padding: 10px;
+        }
+        legend{
+            text-align: center;
+            font-weight: bolder;
+            font-size: 2em;
+            color: black;
+        }
+    </style>
 </head>
 <body>
     <h1> teste de formulario </h1>
     <form action="cadastro.php" method="get" autocomplete="on">
+    <fieldset>
+        <legend> Dados pessoais </legend>
         <p>
             <label for="inome"> nome </label>
             <input type="text" name="nome" id="inome" required maxlength="30" placeholder="bota o nome ai " autocomplete="name">
@@ -26,12 +58,21 @@
             <input type="date" name="dia" id="idia">
         </p>
         <p>
+            <label for="itel"> telefone </label>
+            <input type="tel" name="telefone" id="itel" pattern="^\(\d{2}\)\d{4,5}-\d{4,5}$" required placeholder="(xx)xxxx-xxxxx">
+        </p>
+        <p>
             <input type="submit" value="enviar">
             <input type="reset" value="limpar">
         </p>
-    </form>
+        
+            </form>
         <p>
             <a href="form002.html"> formulario anterior </a>
         </p>
+    </fieldset>
+    <p>
+        <a href="form004.html"> proximo formulario checkbox</a>
+    </p>
 </body>
 </html>
