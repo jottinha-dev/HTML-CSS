@@ -6,6 +6,29 @@
     <title>formularios </title>
 </head>
 <body>
-    
+    <h1> formulario </h1>
+
+    <form action="cadastro.php" method="get" autocomplete="on" >
+        <p>
+            <label for="iest"> estado </label>
+            <select name="estado" id="iest"> estado
+                <optgroup label=" regiao sudeste">
+                    <option value="Sp"> sao paulo </option>
+                    <option value="mg"> minas gerais </option>
+                    <option value="rj"> rio de janeiro</option>
+                </optgroup>
+
+                <optgroup label=" regiao nordeste">
+                    <option value="ma"> maranhao </option>
+                    <option value="rg"> rio grande do norte </option>
+                    <option value="pe"> pernambuco </option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </p>
+    </form>
 </body>
 </html>
