@@ -7,7 +7,7 @@
 }
 
 body,html{
-    background-color: rgb(170, 146, 146);
+    background-color: rgba(196, 179, 135, 0.678);
 }
 
 header{
@@ -51,7 +51,7 @@ menu > ul > li > a {
 }
 
 menu > ul >li > a:hover{
-    background-color: rgb(192, 192, 192);
+    background-color: rgb(255, 0, 0);
 }
 
 main{
@@ -71,6 +71,6 @@ article > h2 {
 
 article > p {
     text-align: justify;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     text-indent: 10px;
 }
