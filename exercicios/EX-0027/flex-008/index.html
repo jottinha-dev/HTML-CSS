@@ -7,35 +7,39 @@
     <style>
         div.conteiner{
             display: flex;
+            height: 200px;
             background-color: salmon;
-            flex-flow: row nowrap;
+            flex-flow: row wrap;
+            align-items: flex-start;
         }
         div.item {
             background-color: rgb(137, 238, 238);
             border: 1px solid black;
             text-align: center;
             padding: 20px;
+            margin: 20px;
+            
         }
         div#i1 {
-            order: 0;
+            align-self: auto;
         }
         div#i2 {
-            order: -2;
+            align-self: flex-start;
         }
         div#i3 {
-            order: 4;
+            align-self: flex-end;
         }
         div#i4 {
-            order: 8;
+            align-self: center;
         }
         div#i5 {
-            order: 2;
+            align-self: stretch;
         }
         div#i6 {
-            order: 0;
+            
         }
         div#i7 {
-            order: -4;
+            
         }
     </style>
 </head>
