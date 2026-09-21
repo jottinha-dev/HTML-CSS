@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+header > nav {
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+header {
+    flex-flow: column nowrap;
+}
+header > h1 {
+    flex-basis: 50px;
+}
+header > nav > a {
+    width: 90vw;
+}   
+
+main {
+    
+    height: 300px;
+}
+
+main > h2 {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+main > p {
+    display: flex;
+    font-size: 0.9em;
+    text-align: center;
+    
+}
