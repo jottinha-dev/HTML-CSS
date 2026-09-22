@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    gap: 5px;
+    grid-template-rows: 20px 60px 1fr 40px;
+    grid-template-columns: 1fr 250px ;
+    
+
+}
+
+.caixa{
+    background-color: lightgray;
+    border: 1px solid black;
+}
+
+#topo {
+    grid-area: 1 /1 /2/-1;
+    text-align: center;
+    align-content: center;
+}
+
+#menu { 
+    grid-area: 2 / 1 /3 / -1;
+    text-align: center;
+    align-content: center;
+
+}
+
+#principal {
+    grid-area: 3 / 1 / -2 / 2;
+     text-align: center;
+    align-content: center;
+}
+
+#secundario {
+    grid-area: 3 / 2 / -2 / -1 ;
+    text-align: center;
+    align-content: center;
+}
+
+#rodape { 
+    grid-area: 4 / 1 / -1 / -1;
+    text-align: center;
+    align-content: center;
+}
