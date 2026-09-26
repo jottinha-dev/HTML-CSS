@@ -1,13 +1,9 @@
  @charset "utf-8";
  @font-face {
-            font-family:'Coolvetica regular';
-            src: url('fonts/Coolvetica Rg') format(opentype);
+            font-family:'Creato Display';
+            src: url('fonts/CreatoDisplay-Bold.otf') format(opentype);
             font-weight: normal;
             font-size: normal;
-        }
-        @font-face {
-            font-family:'Coolvetica 2';
-            src: url('fonts/Coolvetica Rg Cram.otf') format(opentype);
         }
         /*
             tipos de format()
